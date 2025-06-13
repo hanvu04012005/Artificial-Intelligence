@@ -1,8 +1,8 @@
 1. Sử dụng BFS và DFS trên **Đồ thị mẫu 2** . Thêm chú thích chi tiết vào mã của bạn.
 Đồ thị 2 BFS:
-![image](https://github.com/user-attachments/assets/5ebaf10c-42f0-475d-8018-b44e5d1fe413)
+   ![image](https://github.com/user-attachments/assets/5ebaf10c-42f0-475d-8018-b44e5d1fe413)
 Đồ thị 2 DFS:
-![image](https://github.com/user-attachments/assets/e064c0d8-e7a7-4cc8-a954-a04ad5302d60)
+   ![image](https://github.com/user-attachments/assets/e064c0d8-e7a7-4cc8-a954-a04ad5302d60)
 2. Sửa mã BFS để đếm số nút đã thăm trên **Đồ thị mẫu 4**. In ra kết quả và đảm bảo mã có chú thích đầy đủ.
 Đồ thị 4 BFS (THÊM NÚT ĐÃ THĂM)
    Nút đã thăm:
@@ -19,8 +19,8 @@
    Đồ thị 7 DFS:
     ![image](https://github.com/user-attachments/assets/04fb2351-bdc0-4d4e-928c-bce5d83d5caa)
 2. Sửa mã BFS để lưu và in tất cả các đường đi từ S đến H trên **Đồ thị mẫu 7** (không trọng số). Đảm bảo mã có chú thích đầy đủ.
-![image](https://github.com/user-attachments/assets/40feebaf-4ff0-453a-9c36-dafc9ebaba86)
-![image](https://github.com/user-attachments/assets/bc8dfd4b-de43-41fe-be4e-d5e91bcd7f95)
+   ![image](https://github.com/user-attachments/assets/40feebaf-4ff0-453a-9c36-dafc9ebaba86)
+   ![image](https://github.com/user-attachments/assets/bc8dfd4b-de43-41fe-be4e-d5e91bcd7f95)
 3. Thêm một cạnh mới vào **Đồ thị mẫu 6** (ví dụ: B-H với trọng số 20). Chạy lại BFS và DFS, phân tích sự thay đổi trong đường đi và tổng trọng số.
    BFS đồ thị 6 sau khi thêm B-H với trọng số 20:
    ![image](https://github.com/user-attachments/assets/9c4916b0-aac3-4f6d-8d6e-aca1656880b8)
@@ -52,7 +52,7 @@
    code phần kết quả chi tiết và phân tích đường đi :
    ![image](https://github.com/user-attachments/assets/de93216f-0865-4c77-bbec-ff1ee6f0d0dc)
   kết quả kèm phân tích:
-![image](https://github.com/user-attachments/assets/343f92c7-16c9-44bb-afe7-528a825c9777)
+   ![image](https://github.com/user-attachments/assets/343f92c7-16c9-44bb-afe7-528a825c9777)
 
    
 

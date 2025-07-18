@@ -65,8 +65,8 @@ iface = gr.Interface(
 
 ###  Biểu đồ xác suất:
 <img width="746" height="555" alt="image" src="https://github.com/user-attachments/assets/11450769-6702-4faa-8042-43da07864079" />
----
----
+```
+```
 ##  Kết luận
 - Ứng dụng Naive Bayes để phân loại cảm xúc, dự đoán thông qua mô hình đã train
 - Biết cách dùng Gradio để demo mô hình dễ dàng

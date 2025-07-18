@@ -58,7 +58,7 @@ iface = gr.Interface(
 ###  Kết quả dự đoán:
 ```
 ### Kết quả: POSITIVE
-### Độ tin cậy: 85.34%
+### Độ tin cậy: 77.88%
 ```
 ### Biểu đồ ROC:
 <img width="747" height="499" alt="image" src="https://github.com/user-attachments/assets/adc0ee68-f233-4b42-b7c2-5e4cc46e9796" />

@@ -85,5 +85,5 @@ iface = gr.Interface(
 ---
 
 ##  Kết luận
-- Ứng dụng Naive Bayes để phân loại cảm xúc
+- Ứng dụng Naive Bayes để phân loại cảm xúc, dự đoán thông qua mô hình đã train
 - Biết cách dùng Gradio để demo mô hình dễ dàng

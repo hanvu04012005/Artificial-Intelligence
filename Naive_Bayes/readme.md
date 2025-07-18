@@ -65,6 +65,9 @@ iface = gr.Interface(
 
 ###  Biểu đồ xác suất:
 <img width="746" height="555" alt="image" src="https://github.com/user-attachments/assets/11450769-6702-4faa-8042-43da07864079" />
+
+
+
 ```
 ```
 ##  Kết luận

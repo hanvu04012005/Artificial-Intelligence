@@ -5,10 +5,7 @@ Xây dựng một mô hình đơn giản giúp cphân nội dung(tích cực ho�
 - Biểu đồ ROC tổng hợp
 - Biểu đồ xác suất dự đoán cho từng lớp
 Giao diện người dùng được xây dựng bằng thư viện Gradio
-
 ---
----
-
 ##  Các bước xử lý chính trong mã
 
 ### 1. Nạp dữ liệu (`load_data`)
@@ -80,8 +77,6 @@ iface = gr.Interface(
 
 
 ---
-```
-```
 ---
 
 ##  Kết luận

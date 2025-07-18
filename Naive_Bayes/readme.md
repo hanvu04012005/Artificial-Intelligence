@@ -72,10 +72,12 @@ iface = gr.Interface(
 ### Độ tin cậy: 85.34%
 ```
 ### Biểu đồ ROC:
-![ROC Curve](./images/roc_example.png)
+<img width="747" height="499" alt="image" src="https://github.com/user-attachments/assets/adc0ee68-f233-4b42-b7c2-5e4cc46e9796" />
+
 
 ###  Biểu đồ xác suất:
-![Bar Chart](./images/proba_example.png)
+<img width="746" height="555" alt="image" src="https://github.com/user-attachments/assets/11450769-6702-4faa-8042-43da07864079" />
+
 
 ---
 ```

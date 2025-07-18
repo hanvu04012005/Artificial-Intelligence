@@ -15,15 +15,12 @@ def load_data():
 ```
 - Đọc file CSV chứa văn bản và nhãn (Label: positive/negative).
 ---
-
 ### 2. Chia dữ liệu train/test (`split_train_test`)
 ```python
 def split_train_test(data, ratio_test=0.2):
 ```
 - Trộn ngẫu nhiên dữ liệu và chia thành 80% để huấn luyện, 20% để kiểm tra.
-
 ---
-
 ### 3. **Huấn luyện mô hình** (`train_model`)
 ```python
 model = BernoulliNB()
@@ -44,9 +41,7 @@ pred_label = model.predict(X_input)[0]
 - Trả về kết quả và vẽ 2 biểu đồ:
   - Biểu đồ **ROC** thể hiện độ phân biệt của mô hình.
   - Biểu đồ **Xác suất dự đoán** trực quan hóa mức độ tin cậy cho từng lớp.
-
 ---
-
 ### 5. **Giao diện người dùng với Gradio**
 ```python
 iface = gr.Interface(
@@ -57,11 +52,8 @@ iface = gr.Interface(
 ```
 - Dùng `gr.Interface` để tạo một app có giao diện web đơn giản.
 - Người dùng nhập văn bản, kết quả sẽ hiện ra cùng với 2 biểu đồ.
-
 ---
-
 ##  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/74f03c0e-f5a5-46dd-8f9b-09e3d0868d85" />
-
 
 ###  Kết quả dự đoán:
 ```
@@ -71,14 +63,9 @@ iface = gr.Interface(
 ### Biểu đồ ROC:
 <img width="747" height="499" alt="image" src="https://github.com/user-attachments/assets/adc0ee68-f233-4b42-b7c2-5e4cc46e9796" />
 
-
 ###  Biểu đồ xác suất:
 <img width="746" height="555" alt="image" src="https://github.com/user-attachments/assets/11450769-6702-4faa-8042-43da07864079" />
-
-
 ---
----
-
 ##  Kết luận
 - Ứng dụng Naive Bayes để phân loại cảm xúc, dự đoán thông qua mô hình đã train
 - Biết cách dùng Gradio để demo mô hình dễ dàng

@@ -11,17 +11,11 @@
 
 **Yêu cầu:** Duyệt đồ thị theo chiều sâu (DFS) từ một đỉnh xuất phát.
 
-**Đồ thị:**
-
-![image.png](attachment:image.png)
-
-**Hướng dẫn:**
+**cách làm:**
 
 1. Biểu diễn đồ thị dưới dạng danh sách kề.
 2. Viết hàm DFS đệ quy để in thứ tự các đỉnh được thăm.
 3. Bỏ qua trọng số cạnh vì DFS không phụ thuộc vào trọng số.
-
-**Ví dụ Python:**
 
 ```python
 graph = {
@@ -59,14 +53,14 @@ $$
 f(x) = -x^2 + 10x + 50,\quad x \in [0, 10]
 $$
 
-**Ý tưởng:**
+**cách làm:**
 
 * Áp dụng thuật toán di truyền (Genetic Algorithm - GA)
 * Mã hóa x dưới dạng chuỗi nhị phân
 * Fitness là giá trị của hàm f(x)
 * Thực hiện chọn lọc, lai ghép và đột biến qua nhiều thế hệ
 
-**Kết quả mong đợi:**
+**Kết quả:**
 x gần 5, vì tại đó f(x) đạt cực đại.
 
 ---
@@ -80,7 +74,7 @@ Từ Kaggle: [Dogs vs Cats Dataset](https://www.kaggle.com/c/dogs-vs-cats/data)
 
 * Xây dựng mô hình học sâu CNN để phân loại hình ảnh chó/mèo
 
-**Các bước:**
+**Cách làm:**
 
 1. Tiền xử lý dữ liệu (resize, augment)
 2. Xây dựng mô hình CNN (Keras/TensorFlow)
@@ -117,13 +111,12 @@ model = Sequential([
 * Sử dụng dữ liệu phân loại (Categorical)
 * Áp dụng Laplace smoothing (nếu cần)
 
-**Các bước:**
+**Cách làm:**
 
 1. Mã hóa đặc trưng thành dạng số (Label Encoding)
 2. Áp dụng Naive Bayes phân loại rời rạc (`sklearn.naive_bayes.CategoricalNB`)
 3. Dự đoán mẫu mới
 
-**Ví dụ Python:**
 
 ```python
 from sklearn.naive_bayes import CategoricalNB

@@ -13,7 +13,7 @@
 
 **Đồ thị:**
 
-> ![Graph](./8c5267d5-bfa0-4b39-b32e-758c83bcdffd.png)
+![image.png](attachment:image.png)
 
 **Hướng dẫn:**
 
